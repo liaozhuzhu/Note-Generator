@@ -7,13 +7,22 @@ Simple command line script that creates md file templates for my classes. The co
 
 To run, simply clone the script (assuming Rust is installed on your system)
 ```
-cargo run
+$ cargo run
 ```
 
 ```
 Enter 'Semester: Course1, Course2, Course3'
-Fall 2022: course1, course2, course3
+ExSemester: course1, course2, course3
 ```
 
-## Tree diagram of the generated directory
-![tree diagram](tree.png)
+## Output
+```
+$ cd ..
+```
+```
+$ cd ExSemester
+```
+```
+$ ls
+course1.md     course2.md     course3.md
+```
