@@ -16,13 +16,4 @@ Fall 2022: course1, course2, course3
 ```
 
 ## Tree diagram of the generated directory
-.
-│
-├── Fall 2022
-│   ├── course1.md
-│   ├── course2.md
-│   └── course3.md
-└── Note-Generator
-    ├── src
-    │    └── main.rs
-    └── target
+![tree diagram](tree.png)
