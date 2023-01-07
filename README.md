@@ -12,15 +12,12 @@ $ cargo run
 
 ```
 Enter 'Semester: Course1, Course2, Course3'
-ExSemester: course1, course2, course3
+ex_semester: course1, course2, course3
 ```
 
-## Output
+## Example Output
 ```
-$ cd ..
-```
-```
-$ cd ExSemester
+$ cd ex_semester
 ```
 ```
 $ ls

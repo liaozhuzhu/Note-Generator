@@ -38,12 +38,11 @@ fn main() {
     // Add course md files to semester dir
     for (semester, classes) in &schedule {
         for class in classes {
-            println!("{}", class);
             let file_name = format!("../{}/{}.md", semester, class);
             File::create(&file_name).expect("Error creating file...");   
 
             // Write title on each md file
-            write(format!("./{}/{}.md", semester, class), format!("# {}", class));
+            write(format!("../{}/{}.md", semester, class), format!("# {}", class));
         }
     }
 }
