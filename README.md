@@ -15,7 +15,10 @@ Enter 'Semester: Course1, Course2, Course3'
 ex_semester: course1, course2, course3
 ```
 
-## Example Output
+## Example Output'
+```
+$ cd ..
+```
 ```
 $ cd ex_semester
 ```
